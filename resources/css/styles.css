@@ -1,40 +1,106 @@
-/* excursion stylesheet*/
+/* broadway stylesheet*/
 
 * {
-  font-family: Verdana, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
-  color: white;
+  color: black;
 }
 
 body {
-  background-color: black;
+  background-color: white;
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
+.header {
+	background-image: url("../images/the-flatiron-building.png");
 }
 
+.header ul  {
+	margin: 0;
+	padding: 0 0 10px 0;
+	}
+	
+.header li {
+	margin:10px 0 10px 0;
+
+}
+
+.header ul li a { 
+	color: white;
+	font-weight: bold;
+	font-size: 18px; 
+	}
+	
 h2 {
-  font-size: 42px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 p {
-  font-size: 21px;
-  color: gray;
+	font-size: 14px;
+	}
+
+.header h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
 }
 
-a {
-  color: aquamarine;
+.header h3 {
+  text-align: center;
+  font-size: 23px;
+  color: white;
 }
 
-.linkArea {
-  margin: 0 auto;
-  /* background-color: white; */
+.content ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
-.footer p{
-  text-align: right;
+/* footer*/
+
+#footer p {
+	color: white;
+	font-weight: bold; 
+	font-size: 11px;	
+	}
+	
+#footer {
+	text-align: left;
+	background-color: dimgrey;
 }
+
+#footer ul { 
+	margin: 0;
+	padding: 0 0 0 10px;
+	list-style-type: none;
+	display: inline; 
+	text-align: left;
+	}
+	
+#footer ul li {
+	display: inline;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	
+	}
+	
+#footer ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	padding-left: 10px; 
+	}
+	
+
